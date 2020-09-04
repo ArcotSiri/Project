@@ -1,0 +1,119 @@
+body{
+	background-color: lightyellow;
+}
+.flexpropertiescontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+		 .icon{
+	border:none;
+	border-color: white;
+	box-shadow: 5px 10px white;
+	box-sizing: border-box;
+	padding-top: 1%;
+
+}
+.icon div{
+	padding-left: 10%;
+	margin-top: -3.5%;
+	margin-bottom: 1%;
+
+}
+.icon img{
+	padding-top: 1%;
+}
+.but{
+	/*margin-top: -2%;*/
+	border: none;
+	/*padding-bottom: -3%;*/
+	/*margin: 1%;*/
+	background-color: indigo; 
+	color: lightgreen;
+	height: 40px;
+	width: 15%;
+}
+.navigation{
+	margin-top: 0 0 0% 1%;
+
+}
+.topright{
+	position: absolute;
+	top:8px;
+	right:16px;
+	font-size: 18px;
+	padding-top: 6%;
+	padding-right: 3%;
+}
+.categories img{
+	margin: 0.5%;
+}
+footer{
+	background-color: grey;
+	text-align: center;
+}
+.but:hover{
+	
+    cursor: pointer;
+	color: white;
+	background-color: blue;
+}
+.topright  .fa-user-o:hover{
+	cursor: pointer;
+	color: blue;
+}
+.topright  .fa-bookmark-o:hover{
+	cursor: pointer;
+	color: blue;
+}
+.topright  .fa-shopping-bag:hover{
+	cursor: pointer;
+	color: blue;
+}
+.categories img:hover{
+	cursor: pointer;
+}
+.inlining img:hover{
+cursor: pointer;
+}
+.box img:hover{
+cursor: pointer;
+}
+.donation img:hover{
+cursor: pointer;
+}
+.heello{
+	font-size: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.flexpropertiescontainer{
+		flex-direction: column;
+	}
+	.whole img{
+		width: 95%;
+		height: 20%;
+	}
+	/*.navigation button{
+		margin-bottom: 1%;
+	}*/
+	.icon img{
+		width: 15%;
+		height: 5%;
+	}
+	.hello{
+
+		font-size: 10px;
+	}
+	.but{
+		width: 30%;
+	}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+/*		.navigation button{
+		margin-bottom: 1%;
+	}*/
+	
+}
